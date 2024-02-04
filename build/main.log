@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.12.18)  25 JAN 2024 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.26)  4 FEB 2024 19:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/ali/tum/motion_planning/social_ai_report_and_presentation/report_social_ai/main.tex
-(/home/ali/tum/motion_planning/social_ai_report_and_presentation/report_social_ai/main.tex
+**/home/ali/tum/motion_planning/social_ai_report/main.tex
+(/home/ali/tum/motion_planning/social_ai_report/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -252,14 +252,14 @@ Before submitting the final camera ready copy, remember to:
  <./images/grins.pdf> <./images/grins.png>] (build/main.aux) ) 
 Here is how much of TeX's memory you used:
  2361 strings out of 477985
- 42557 string characters out of 5840057
+ 42455 string characters out of 5840058
  1855388 words of memory out of 5000000
  22546 multiletter control sequences out of 15000+600000
  557073 words of font info for 102 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 57i,9n,62p,280b,292s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,9n,62p,246b,292s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on build/main.pdf (2 pages, 78145 bytes).
+Output written on build/main.pdf (2 pages, 78125 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream

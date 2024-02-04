@@ -1,7 +1,7 @@
-PWD /home/ali/tum/motion_planning/social_ai_report_and_presentation/report_social_ai
+PWD /home/ali/tum/motion_planning/social_ai_report
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/ali/tum/motion_planning/social_ai_report_and_presentation/report_social_ai/main.tex
+INPUT /home/ali/tum/motion_planning/social_ai_report/main.tex
 OUTPUT build/main.log
 INPUT /usr/share/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 INPUT /usr/share/texmf-dist/tex/latex/ieeetran/IEEEtran.cls

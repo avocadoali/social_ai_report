@@ -4,3 +4,6 @@ Specify the output in the settings.json such that auxiliary files are not stored
 ```json
 "latex-workshop.latex.outDir": "./build",
 ```
+
+
+

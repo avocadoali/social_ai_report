@@ -1,0 +1,48 @@
+Abstract 
+- scene aware and social aware motion prediction
+- some paths are physically possible but socially improbable
+- introduction of forces between cars
+
+Problem statement
+- underying neural network has a discretization problem
+- create a better discrete integration model
+- model for the distances and velocity should compute matchung acceleration 
+
+Concept overview
+- using a linear model to estimate the acceleration
+- will use linear regression to estimate the coefficients of the underlying model
+- then rearrange the model such that it output the velocity and distance accurately again
+
+Description of the proposed method and the implementation
+- introduce the dataset:
+    - drone footage
+    - different scenarios
+    - X datapoints in total
+    - show the columns
+
+- we tested X different linear models
+- most successfull one was this
+- note: all columns are split into x- and y-components
+- can split up our model for simplicity and code style
+
+- the tests were run on over X datapoints and Y different datasets
+- data was split into a training and a test set using the typical X:Y splitting method
+
+- results: 
+    - mse, r-score, and X for the evaluation 
+    - show the accuracy of the acceleration prediction
+
+    - problems:
+        - Constant error might be due to rounding errors?
+        - outlier data
+
+
+Conclusions and future work
+- results seem promising
+- keep in mind this is only a linear model
+- but might be sufficient for the neural network
+- actually test it with the neural network
+- test on other datasets
+
+
+
