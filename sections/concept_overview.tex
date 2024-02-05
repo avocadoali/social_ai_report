@@ -1,1 +1,25 @@
 \section{Concept Overview}
+
+
+Our method revolves around the use of a linear model to estimate the acceleration of vehicles.
+By equating and rearranging the formula, we specifically ensure that the predicted accelerations remain consistent. 
+Whereas, using the old method of ballistic integration the discretization error heavily influences the accuracy.
+
+The motivation behind choosing a linear model stems from the hope of better performance compared 
+to alternative models tested during our experimentation. 
+Through rigorous testing, we found that the selected linear model consistently outperformed others in 
+terms of accuracy in predicting the car's movement. 
+Additionally, the simplicity and interpretability of the linear model make it an attractive choice for 
+motion prediction tasks, as we can comfortably use established methods to solve these systems. 
+
+To validate the effectiveness of our approach, we plan to compare the results obtained with our linear 
+model against the old Ballistic Integration method, particularly focusing on the accuracy and consistency of 
+the predicted accelerations. 
+Additionally, we will evaluate the performance of our model using standard linear regression metrics such as 
+R-value and MSE. 
+Furthermore, we aim to extend our analysis by rearranging the model to predict velocity and distance, 
+allowing us to assess its predictive capabilities.
+In the end, we will visualize our results using the existing drone-dataset-tool repo, 
+which was provided.
+
+
