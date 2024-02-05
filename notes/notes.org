@@ -1,17 +1,27 @@
 Abstract 
 - scene aware and social aware motion prediction
 - some paths are physically possible but socially improbable
-- introduction of forces between cars
+- introduction of forces between cars that better describe the interaction between cars
+- 
+
 
 Problem statement
 - underying neural network has a discretization problem
 - create a better discrete integration model
 - model for the distances and velocity should compute matchung acceleration 
 
+
+
+
+
 Concept overview
 - using a linear model to estimate the acceleration
 - will use linear regression to estimate the coefficients of the underlying model
 - then rearrange the model such that it output the velocity and distance accurately again
+
+
+
+
 
 Description of the proposed method and the implementation
 - introduce the dataset:
