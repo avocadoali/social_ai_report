@@ -125,3 +125,47 @@ it only adds one more parameter of the past acceleration
 
 
 
+Dataset Description:
+Can you provide more details about the dataset you used for experimentation?
+- dataset was provided by the following source:
+https://levelxdata.com/
+In cooperation with ika, the Institute for Automotive Engineering at RWTH Aachen University, we have created a representative series of datasets which are free for non-commercial research. Our goal is to help the research community finding innovative solutions for the challenges of intelligent mobility.
+
+
+
+What sources were used to collect the data, and what types of scenarios does it cover?
+- The inD dataset is a new dataset of naturalistic vehicle trajectories recorded at German intersections. Using a drone, typical limitations of established traffic data collection methods like occlusions are overcome. T
+- The exiD dataset is a new dataset of naturalistic road user trajectories recorded at exits and entries of highways in Germany. Using a drone, typical limitations of established traffic data collection methods like occlusions are overcome
+- The rounD dataset is a new dataset of naturalistic road user trajectories recorded at German roundabouts. Using a drone, typical limitations of established traffic data collection methods like occlusions are overcome. Traffic was recorded at three different locations.
+
+
+Model Selection Process:
+How did you select the linear model for acceleration estimation from the various models tested?
+- trial and error of in total 8 models
+
+Can you explain the criteria used to evaluate and compare the performance of different models?
+- accuracy of the prediction using r2, mse,
+- accuracy of the prediction after rearranging the models for there velocity and distance
+
+Training and Testing Procedure:
+What approach did you follow to split the dataset into training and testing sets?
+- using common data splitting techniques provided by the scikit learn python library
+- used the function train_test_split() functio from scikit with test size of 0.3
+
+Evaluation Metrics and Results:
+What evaluation metrics were used to assess the performance of the linear model?
+- insert common metrics for linear regression here
+
+Can you provide a summary of the results obtained, including key metrics such as MSE, R-score, etc.?
+- i will add them later. For now insert some mock data here for 3 tested models
+
+Were there any notable findings or observations from the evaluation process that merit further discussion or analysis?
+- the results after the rearanging of the formula for distance and velocity seem to have an Constant error
+- after increasing the numpy array size this error seemed to be going down
+- might be some floating point error
+
+Future Directions:
+Based on your implementation experience, are there any specific areas for future research or improvement?
+- increase the precision of the numpy arrays by increasing there size
+- bigger dataset
+

@@ -1,8 +1,11 @@
 \section{Problem Statement}
-In our current approach, we rely on a method known as ballistic integration for discrete integration in motion prediction. 
-However, a significant challenge arises due to the inherent discretization error associated with working with discrete data.
+In our current approach, we rely on a method known as ballistic integration for discrete integration. 
+However, a significant challenge arises due to the inherent discretization error associated 
+with working with discrete data.
+Specifically, when we rearrange the integration formula to assess its fit with our data, 
+we observe errors between the predicted acceleration and the ground truth.
+These errors will furthermore be explored in the results section.
 
-Specifically, when we rearrange the integration formula to assess its fit with our data, we observe errors between the predicted acceleration and the ground truth.
-These errors will furthermore be shown in the results section.
-The differences in the accelerations affect the performance of the neural network, as the integration results are used as inputs to the network.
+The differences in the accelerations affect the performance of the neural network, 
+as the integration results are used as inputs to the network.
 

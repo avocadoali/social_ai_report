@@ -1,10 +1,46 @@
 \section{Method}
 
+In this section, we detail the methodology employed for motion prediction in dynamic environments, 
+along with the implementation steps undertaken to validate our approach.
+
+\subsection{Dataset Description} 
+For our experimentation, we utilized the inD, exiD, and rounD datasets.
+The datasets offer vehicle trajectories recorded at German intersections, highway exits and entries, and roundabouts, respectively. 
+Additionally, a repo (drone-dataset-tool) was provided that allowed us to visualize the dataset for better understanding. 
 
 
+\subsection{Model Selection Process} 
+Our model selection process involved a systematic trial and error approach with a total of 8 different models. 
+Each model underwent an evaluation process to assess its ability to accurately predict vehicle acceleration across 
+various scenarios. 
+Ultimately, the following linear model emerged as the most suitable choice based on its superior performance metrics.
+
+\subsection{Training and Testing Procedure} 
+To facilitate model training and evaluation, we employed the common data-splitting techniques provided by 
+the sci-kit-learn Python library. 
+The $train\_test\_split()$ function was utilized, with a test size of 0.3, to ensure a sufficient amount of data 
+for robust evaluation.
+
+\subsection{Evaluation Metrics and Results} 
+The performance of our linear model was assessed using common metrics for linear regression, including 
+R-squared (r2) and Mean Squared Error (MSE). 
+Detailed evaluation results, including mock data for the evaluation metrics, will be provided later in the report, 
+offering insights into the model's predictive capabilities.
+
+\subsection{Rearrangement of formulas} 
+After computing the resulting linear regression model and its coefficients, we can rearrange the formula 
+for the acceleration models. 
+After adjusting the coefficients we receive the following formulas for the distance and velocity.
 
 
+\subsection{Notable Findings and Observations} 
+During the evaluation process, several notable findings were observed. 
+Most notably, after rearranging the formula for distance and velocity, a constant error was detected. 
+However, increasing the size of NumPy arrays appeared to mitigate this error, indicating a potential 
+floating-point precision issue.
 
-
-
+\subsection{Future Directions} 
+Based on our implementation experience, future research and improvement areas include enhancing the 
+precision of NumPy arrays by increasing their size and expanding the dataset to encompass a more extensive
+range of scenarios for comprehensive model training and testing.
 
