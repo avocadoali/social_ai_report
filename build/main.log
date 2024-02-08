@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.26)  5 FEB 2024 19:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.26)  8 FEB 2024 18:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -233,12 +233,15 @@ File: ./images/grins.pdf Graphic file (type pdf)
 <use ./images/grins.pdf>
 Package pdftex.def Info: ./images/grins.pdf  used on input line 23.
 (pdftex.def)             Requested size: 110.93918pt x 135.09877pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <./images/grins.png, id=25, 110.814pt x 144.54pt>
 File: ./images/grins.png Graphic file (type png)
 <use ./images/grins.png>
 Package pdftex.def Info: ./images/grins.png  used on input line 31.
 (pdftex.def)             Requested size: 110.8137pt x 144.53963pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -258,13 +261,13 @@ Before submitting the final camera ready copy, remember to:
 Here is how much of TeX's memory you used:
  2401 strings out of 477985
  43383 string characters out of 5840058
- 1863388 words of memory out of 5000000
+ 1864388 words of memory out of 5000000
  22563 multiletter control sequences out of 15000+600000
  557073 words of font info for 102 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  57i,9n,62p,246b,292s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on build/main.pdf (3 pages, 103850 bytes).
+Output written on build/main.pdf (3 pages, 105494 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream

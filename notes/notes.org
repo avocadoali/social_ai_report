@@ -1,22 +1,61 @@
+
+* Todo
+** Report
+*** Concept overview
+- [ ]
+*** Method
+- [ ] Add picture of the dataset
+- [ ] add overview of the models
+- [ ] Model selection process, add the features and the metrics on what basis we decided the models
+- [ ] How many datapoints were used
+
+
+** Code
+Use Baris dataset
+- [-] Make all figure again for the report
+  Ballistic integration and our integration model
+  - [-] acceleration prediction x- and y-components
+  - [-] acceleration equlvalence x- and y-components
+  Our integration model
+  - [X] prediction of the velocity
+  - [X] prediction of the distance
+
+- [ ] Clean up
+- [ ] Fix the constant error in the velocity prediction
+- [ ] bash scripts
+- [ ] readme + documentation
+
+
+
+* Method
+Formula list
+- distance and velocity formula
+- accleration formula
+- rewritten in matrix form
+- split into x and y components
+- split model into two models
+
+
+
+
+
+* Structure
 Abstract 
 - scene aware and social aware motion prediction
 - some paths are physically possible but socially improbable
 - introduction of forces between cars that better describe the interaction between cars
-- 
-
 
 Problem statement
 - underying neural network has a discretization problem
 - create a better discrete integration model
 - model for the distances and velocity should compute matchung acceleration 
 
-
 Concept overview
 - using a linear model to estimate the acceleration
 - will use linear regression to estimate the coefficients of the underlying model
 - then rearrange the model such that it output the velocity and distance accurately again
 
-** Questions to be answered
+* Questions to be answered
 
 Certainly! Here are some questions to help you elaborate on the problem statement in your report:
 Challenges with the Current Approach:
@@ -26,10 +65,6 @@ Challenges with the Current Approach:
     - problem is that as we are working with discrete data, there happens to be discretization error
     - in our case after rearanging the formula to see if the integration model fits our data the acceleration does not fit the ground truth
     - this leads to bad results in the neural network, as our results of the integration are fed into the NN
-
-
-
-
 
 
 
@@ -96,7 +131,6 @@ Can you provide a high-level overview of the methodology you propose?
 What motivated the choice of a linear model for acceleration estimation?
 - we tested 8 other linear models and this one was the best
 - motivation was similarity to the old ballistic integration (which are common formulas for discrete integration)
-
 How do you plan to validate the effectiveness of your approach?
 - we can evaluate the results by comparing it to the old appraoch (namely the old ballistic integration)
 - we will also look at the common metrics of a linear regression such as r value, mse etc...
@@ -169,3 +203,32 @@ Based on your implementation experience, are there any specific areas for future
 - increase the precision of the numpy arrays by increasing there size
 - bigger dataset
 
+** Results
+
+Performance Metrics:
+    What specific metrics were used to evaluate the performance of your model?
+    Can you provide a summary of the results for each metric, including any significant findings or trends observed?
+
+- For evaluation we used, MSE, MAE and r-square score
+- explain what these are and what the optimal values are for these metrics
+- we predicted the accelerations of both methods
+  for each x and y components
+
+Make latex table for this
+|                             | MSE | MAE | r-score |
+| our integration model       | A   | B   | C       |
+| ballistic integration model | D   | E   | F       |
+
+Visualization of Results:
+    Have you prepared any visualizations to accompany the numerical results?
+    How do these visualizations aid in the interpretation and understanding of the model's performance?
+
+- Visualized the results using the provided drone-dataset-tool
+- had to rearange the formula using the same coefficients which were determined by the linear regression model
+
+Implications and Future Work:
+    What are the implications of your results for real-world applications?
+    Based on your findings, what are the next steps for further research or improvement?
+
+- The accuracy of the acceleration model seems to be better than that of the ballistic intergration model
+- our results now have to plugged into the neural network which the previous team was working with

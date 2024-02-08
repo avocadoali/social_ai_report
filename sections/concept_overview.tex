@@ -1,8 +1,19 @@
 \section{Concept Overview}
+As we are working with a discrete dataset, there is no way to integrate or derive over a continuous function 
+which describes the motion of a car. 
+Thus, a discrete integration method to describe the motion of a car is needed. 
+In previous attempts, other discrete integration methods were tested such as the ballistic integration model.
+
+- insert equation here
+
+The main problem here was that this integration model had problems with the accuracy of the acceleration. 
+As we could rearrange both formulas to the acceleration parameter, the resulting formulas did not calculate the 
+same acceleration. This will be shown in the results section.
 
 Our method revolves around the use of a linear model to estimate the acceleration of vehicles.
 By equating and rearranging the formula, we specifically ensure that the predicted accelerations remain consistent. 
 Whereas, using the old method of ballistic integration the discretization error heavily influences the accuracy.
+This will be further elaborated in the methods section.
 
 The motivation behind choosing a linear model stems from the hope of better performance compared 
 to alternative models tested during our experimentation. 
