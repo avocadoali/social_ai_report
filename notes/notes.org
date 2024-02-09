@@ -204,6 +204,18 @@ Based on your implementation experience, are there any specific areas for future
 - bigger dataset
 
 ** Results
+*** Strucuter
+Results of acceleration prediction (Linear Model Disance and Velocity)
+
+Prediction Acceleration (Linear Model, Distance)
+Prediction Acceleration (Linear Model, Velocity)
+
+Acceleration Equivalance (Ballistic integration)
+
+Acceleration Equivalance (Linear Model)
+
+*** Notes
+Results for the prediction of the model
 
 Performance Metrics:
     What specific metrics were used to evaluate the performance of your model?
@@ -232,3 +244,66 @@ Implications and Future Work:
 
 - The accuracy of the acceleration model seems to be better than that of the ballistic intergration model
 - our results now have to plugged into the neural network which the previous team was working with
+
+
+I have to write a report of a project I did for uni. This is the methods section. Can you help me with the results section? What do I have to focus on?
+
+
+** Questions
+erformance Evaluation:
+
+    What specific metrics were used to evaluate the performance of your model?
+    Can you summarize the results for each metric and highlight any significant differences between your model and the baseline?
+
+
+Comparison with Baseline:
+
+    How does the performance of your model compare with the baseline (e.g., the ballistic integration model)?
+    Were there any unexpected findings or discrepancies between the two models?
+
+Visualization of Results:
+
+    Have you prepared any visualizations (e.g., graphs, charts) to illustrate the predicted accelerations of your model and the baseline?
+    How do these visualizations enhance the interpretation and understanding of the results?
+
+Discussion of Findings:
+
+    What insights can be derived from the results obtained?
+    Are there any patterns or trends observed in the data that warrant further investigation or discussion?
+
+Implications for Real-World Applications:
+
+    What are the implications of your results for real-world applications, such as autonomous driving or robotics?
+    How do your findings contribute to advancing the field or addressing existing challenges in motion prediction?
+
+Robustness and Generalization:
+
+    How robust is your model to variations in the dataset or different scenarios?
+    Did you observe any overfitting or underfitting issues, and if so, how were they addressed?
+
+Future Directions:
+
+    Based on the results obtained, what are the next steps for further research or improvement?
+    Are there any specific areas or aspects of your model that require further investigation or refinement?
+
+Conclusion and Summary:
+
+    Can you provide a concise summary of the key findings and insights presented in the results section?
+    What overarching conclusions can be drawn from the analysis of your model's performance?
+
+* Sources
+
+Public dataset:
+https://levelxdata.com/
+
+inD
+https://levelxdata.com/ind-dataset/
+
+rounD
+https://levelxdata.com/round-dataset/
+
+exiD
+https://levelxdata.com/exid-dataset/
+
+Drone tool:
+https://github.com/ika-rwth-aachen/drone-dataset-tools?tab=readme-ov-file

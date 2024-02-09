@@ -128,6 +128,76 @@ INPUT /usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/color.sty
@@ -257,6 +327,36 @@ INPUT ./sections/results.tex
 INPUT sections/results.tex
 INPUT ./sections/results.tex
 INPUT sections/results.tex
+INPUT ./images/figures/Prediction Acceleration (Linear Model, Distance).png
+INPUT ./images/figures/Prediction Acceleration (Linear Model, Distance).png
+INPUT images/figures/Prediction Acceleration (Linear Model, Distance).png
+INPUT ./images/figures/Prediction Acceleration (Linear Model, Distance).png
+INPUT ./images/figures/Prediction Acceleration (Linear Model, Distance).png
+INPUT ./images/figures/Prediction Acceleration (Linear Model, Velocity).png
+INPUT ./images/figures/Prediction Acceleration (Linear Model, Velocity).png
+INPUT images/figures/Prediction Acceleration (Linear Model, Velocity).png
+INPUT ./images/figures/Prediction Acceleration (Linear Model, Velocity).png
+INPUT ./images/figures/Prediction Acceleration (Linear Model, Velocity).png
+INPUT ./images/figures/Prediction Distance using the coefficients.png
+INPUT ./images/figures/Prediction Distance using the coefficients.png
+INPUT images/figures/Prediction Distance using the coefficients.png
+INPUT ./images/figures/Prediction Distance using the coefficients.png
+INPUT ./images/figures/Prediction Distance using the coefficients.png
+INPUT ./images/figures/Prediction Velocity using the coefficients.png
+INPUT ./images/figures/Prediction Velocity using the coefficients.png
+INPUT images/figures/Prediction Velocity using the coefficients.png
+INPUT ./images/figures/Prediction Velocity using the coefficients.png
+INPUT ./images/figures/Prediction Velocity using the coefficients.png
+INPUT ./images/figures/Acceleration Equivalence (Linear Model).png
+INPUT ./images/figures/Acceleration Equivalence (Linear Model).png
+INPUT images/figures/Acceleration Equivalence (Linear Model).png
+INPUT ./images/figures/Acceleration Equivalence (Linear Model).png
+INPUT ./images/figures/Acceleration Equivalence (Linear Model).png
+INPUT ./images/figures/Acceleration Equivalence (Ballistic integration).png
+INPUT ./images/figures/Acceleration Equivalence (Ballistic integration).png
+INPUT images/figures/Acceleration Equivalence (Ballistic integration).png
+INPUT ./images/figures/Acceleration Equivalence (Ballistic integration).png
+INPUT ./images/figures/Acceleration Equivalence (Ballistic integration).png
 INPUT ./sections/conclusion.tex
 INPUT sections/conclusion.tex
 INPUT ./sections/conclusion.tex
@@ -294,8 +394,11 @@ INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT build/main.aux
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb
