@@ -1,48 +1,60 @@
 \section{Results}
 
-\subsubsection{Results - Linear Model}
-Subsubsection text here.
-\begin{figure}[t]
+\subsection{Linear Model}
+
+The linear models that predict the acceleration derived from the distance formula
+(\ref{eq:lin_model_acc_dis}) and the model derived from the velocity formula (\ref{eq:lin_model_acc_vel}) solved using linear regression have the following test results:
+
+
+\begin{table}[htbp]
+\centering
+\caption{Comparison Results: Distance Model and Velocity Model}
+\label{tab:model_comparison}
+\begin{tabular}{l S[table-format=1.4e-2] S[table-format=1.4e-2] S[table-format=1.4e-2]}
+\toprule
+ & {MSE} & {MAE} & {$R^2$ Score} \\
+\midrule
+Distance Model & 3.5392e-03 & 1.1892e-02 & 9.8918e-01 \\
+Velocity Model & 3.5370e-03 & 1.1877e-02 & 9.8918e-01 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+We can see that the predictions for the test set are quite accurate having small MSE and MAE. 
+We can also plot our results into graphs to have a better visual understanding of our results
+
+\begin{figure}[h]
     \centering
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{images/figures/Prediction Acceleration (Linear Model, Distance).png}
-        \caption{Caption for Figure 1}
+        \caption{Test results Distance Model}
         \label{fig:minipage3}
     \end{minipage}
     \hfill
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{images/figures/Prediction Acceleration (Linear Model, Velocity).png}
-        \caption{Caption for Figure 2}
+        \caption{Test results Velocity Model}
         \label{fig:minipage4}
     \end{minipage}
-    \caption{Caption for the entire figure}
-    \label{fig:combined_figure_2}
 \end{figure}
 
+The graph seems to fit our low MSE and MAE values, as all predicted points are lying close to the red line which indicates
+a perfect prediction.
+Interestingly we can see that most inaccuracies lie in the middle where the acceleration is close to zero.
+Our hypothesis is that if our acceleration is close to zero the model has the least amount of information for inference, leading
+to a more scattered prediction in this region.
 
-\begin{figure}[t]
-    \centering
-    \begin{minipage}[b]{0.45\columnwidth}
-        \centering
-        \includegraphics[width=\columnwidth]{images/figures/Prediction Distance using the coefficients.png}
-        \caption{Caption for Figure 1}
-        \label{fig:minipage3}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[b]{0.45\columnwidth}
-        \centering
-        \includegraphics[width=\columnwidth]{images/figures/Prediction Velocity using the coefficients.png}
-        \caption{Caption for Figure 2}
-        \label{fig:minipage4}
-    \end{minipage}
-    \caption{Caption for the entire figure}
-    \label{fig:combined_figure_2}
-\end{figure}
+\subsection{Equivalence of accelerations}
 
+Note that the both results from the linear regression look quite similar. 
+This is due to the fact, that we specifically trained both models to fit the same dataset. 
+The similarity can be seen in the following figure.
+The left shows the how the predicted accelerations of both our linear models match up, while on the right we can see how the 
+accelerations match up for the previously used ballistic integration method
 
-\begin{figure}[t]
+\begin{figure}[h]
     \centering
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
@@ -61,21 +73,70 @@ Subsubsection text here.
     \label{fig:combined_figure_2}
 \end{figure}
 
+In the following we can see the metrics of our results for the equivalence of the accelerations
+
+\begin{table}[htbp]
+\centering
+\caption{Model Performance Comparison}
+\label{tab:model_comparison_lin_v_bal}
+\begin{tabular}{lccc}
+\toprule
+Model & MSE & MAE \\
+\midrule
+Linear Model & 1.8141e-06 & 7.5061e-04 \\
+Ballistic Integration & 2.0698e+02 & 5.0158e-01 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+We can clearly see that the accelerations from both our linear models match up better than the previously used
+ballistic integration method.
+
+\subsection{Predicion of the movement}
+Using the coefficients determine by the linear regression we can rearrange the model such that the model predicts 
+the distance (\ref{eq:distance_matrix}) and the velocity (\ref{eq:velocity_matrix}).
+The following shows metrics for the prediciton of the distance and the velocity using the coefficients
+
+\begin{table}[t]
+    \centering
+    \caption{Regression Metrics}
+    \begin{tabular}{lccc}
+    \toprule
+ & {MSE} & {MAE} & {$R^2$ Score} \\
+    \midrule
+    Distance Formula & $1.3867 \times 10^{1}$ & $3.7239 \times 10^{0}$ & $9.8926 \times 10^{-1}$ \\
+    Velocity Formula & $2.2635 \times 10^{0}$ & $1.5045 \times 10^{0}$ & $9.3378 \times 10^{-1}$ \\
+    \bottomrule
+    \end{tabular}
+    \label{tab:regression_metrics}
+\end{table}
 
 
+As we can see all metrics are conditioned well. 
+Though we can see that the MSE and MAE values the error is quite some bit zero.
+This means that our prediction for the distance and velocity is not perfect. 
+For a better understanding, we also visualized our findings
 
+\begin{figure}[htbp]
+    \centering
+    \begin{minipage}[b]{0.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{images/figures/Prediction Distance using the coefficients.png}
+        \caption{Caption for Figure 1}
+        \label{fig:minipage3}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{images/figures/Prediction Velocity using the coefficients.png}
+        \caption{Caption for Figure 2}
+        \label{fig:minipage4}
+    \end{minipage}
+    \caption{Caption for the entire figure}
+    \label{fig:combined_figure_2}
+\end{figure}
 
-
-
-
-\subsection{Notable Findings and Observations} 
-During the evaluation process, several notable findings were observed. 
-Most notably, after rearranging the formula for distance and velocity, a constant error was detected. 
-However, increasing the size of NumPy arrays appeared to mitigate this error, indicating a potential 
-floating-point precision issue.
-
-\subsection{Future Directions} 
-Based on our implementation experience, future research and improvement areas include enhancing the 
-precision of NumPy arrays by increasing their size and expanding the dataset to encompass a more extensive
-range of scenarios for comprehensive model training and testing.
-
+Again, we can see that the prediction matches up with the ground truth very well. 
+These results can then be visualized using the drone-dataset-tool provided with the dataset.
+Results comparing the prediction of the moving cars to the ground truth can be found here.
+\textbf{Insert url here}

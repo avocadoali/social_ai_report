@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.26)  9 FEB 2024 21:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.26)  11 FEB 2024 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -193,25 +193,100 @@ LaTeX Info: Redefining \] on input line 2954.
 ) (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (/usr/share/texmf-dist/tex/latex/graphics/color.sty
+) (/usr/share/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
  (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+ (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen175
+\lightrulewidth=\dimen176
+\cmidrulewidth=\dimen177
+\belowrulesep=\dimen178
+\belowbottomsep=\dimen179
+\aboverulesep=\dimen180
+\abovetopsep=\dimen181
+\cmidrulesep=\dimen182
+\cmidrulekern=\dimen183
+\defaultaddspace=\dimen184
+\@cmidla=\count278
+\@cmidlb=\count279
+\@aboverulesep=\dimen185
+\@belowrulesep=\dimen186
+\@thisruleclass=\count280
+\@lastruleclass=\count281
+\@thisrulewidth=\dimen187
+) (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2023-03-04 v3.2.2 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen188
+\l__siunitx_angle_marker_box=\box55
+\l__siunitx_angle_unit_box=\box56
+\l__siunitx_compound_count_int=\count282
+ (/usr/share/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count283
+) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_number_exponent_fixed_int=\count284
+\l__siunitx_number_min_decimal_int=\count285
+\l__siunitx_number_min_integer_int=\count286
+\l__siunitx_number_round_precision_int=\count287
+\l__siunitx_number_lower_threshold_int=\count288
+\l__siunitx_number_upper_threshold_int=\count289
+\l__siunitx_number_group_first_int=\count290
+\l__siunitx_number_group_size_int=\count291
+\l__siunitx_number_group_minimum_int=\count292
+\l__siunitx_table_tmp_box=\box57
+\l__siunitx_table_tmp_dim=\dimen189
+\l__siunitx_table_column_width_dim=\dimen190
+\l__siunitx_table_integer_box=\box58
+\l__siunitx_table_decimal_box=\box59
+\l__siunitx_table_uncert_box=\box60
+\l__siunitx_table_before_box=\box61
+\l__siunitx_table_after_box=\box62
+\l__siunitx_table_before_dim=\dimen191
+\l__siunitx_table_carry_dim=\dimen192
+\l__siunitx_unit_tmp_int=\count293
+\l__siunitx_unit_position_int=\count294
+\l__siunitx_unit_total_int=\count295
+ (/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen193
+\ar@mcellbox=\box63
+\extrarowheight=\dimen194
+\NC@list=\toks25
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box64
+))
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 350.
+ (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count278
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count296
+\l__pdf_internal_box=\box65
 ) (build/main.aux
 
 LaTeX Warning: Label `fig:minipage3' multiply defined.
 
 
 LaTeX Warning: Label `fig:minipage4' multiply defined.
-
-
-LaTeX Warning: Label `fig:combined_figure_2' multiply defined.
 
 
 LaTeX Warning: Label `fig:minipage3' multiply defined.
@@ -225,41 +300,45 @@ LaTeX Warning: Label `fig:combined_figure_2' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 346.
-LaTeX Font Info:    ... okay on input line 346.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 346.
-LaTeX Font Info:    ... okay on input line 346.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 346.
-LaTeX Font Info:    ... okay on input line 346.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 346.
-LaTeX Font Info:    ... okay on input line 346.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 346.
-LaTeX Font Info:    ... okay on input line 346.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 346.
-LaTeX Font Info:    ... okay on input line 346.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 346.
-LaTeX Font Info:    ... okay on input line 346.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 350.
+LaTeX Font Info:    ... okay on input line 350.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 350.
+LaTeX Font Info:    ... okay on input line 350.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 350.
+LaTeX Font Info:    ... okay on input line 350.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 350.
+LaTeX Font Info:    ... okay on input line 350.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 350.
+LaTeX Font Info:    ... okay on input line 350.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 350.
+LaTeX Font Info:    ... okay on input line 350.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 350.
+LaTeX Font Info:    ... okay on input line 350.
 
 -- Lines per column: 56 (exact).
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count279
-\scratchdimen=\dimen175
-\scratchbox=\box56
-\nofMPsegments=\count280
-\nofMParguments=\count281
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count282
-\MPscratchDim=\dimen176
-\MPnumerator=\count283
-\makeMPintoPDFobject=\count284
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count297
+\scratchdimen=\dimen195
+\scratchbox=\box66
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen196
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./sections/coverpage.tex
+)) (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 350.
+ (./sections/coverpage.tex
 <images/IN.pdf, id=1, 29.8716pt x 32.82263pt>
 File: images/IN.pdf Graphic file (type pdf)
 <use images/IN.pdf>
@@ -308,44 +387,49 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/IN.pdf> <./images/tumlogo.pdf>] (./sections/abstract.tex) (./sections/problem_statement.tex) (./sections/concept_overview.tex) (./sections/method.tex [2
 
 
-]) (./sections/results.tex
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 66.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 66.
+) (./sections/results.tex
+Overfull \hbox (16.01419pt too wide) in paragraph at lines 13--21
+ [][] 
+ []
+
 <images/figures/Prediction Acceleration (Linear Model, Distance).png, id=27, 505.89pt x 505.89pt>
 File: images/figures/Prediction Acceleration (Linear Model, Distance).png Graphic file (type png)
 <use images/figures/Prediction Acceleration (Linear Model, Distance).png>
-Package pdftex.def Info: images/figures/Prediction Acceleration (Linear Model, Distance).png  used on input line 9.
+Package pdftex.def Info: images/figures/Prediction Acceleration (Linear Model, Distance).png  used on input line 30.
 (pdftex.def)             Requested size: 113.39923pt x 113.39577pt.
 <images/figures/Prediction Acceleration (Linear Model, Velocity).png, id=29, 505.89pt x 505.89pt>
 File: images/figures/Prediction Acceleration (Linear Model, Velocity).png Graphic file (type png)
 <use images/figures/Prediction Acceleration (Linear Model, Velocity).png>
-Package pdftex.def Info: images/figures/Prediction Acceleration (Linear Model, Velocity).png  used on input line 16.
+Package pdftex.def Info: images/figures/Prediction Acceleration (Linear Model, Velocity).png  used on input line 37.
 (pdftex.def)             Requested size: 113.39923pt x 113.39577pt.
-<images/figures/Prediction Distance using the coefficients.png, id=30, 505.89pt x 505.89pt>
-File: images/figures/Prediction Distance using the coefficients.png Graphic file (type png)
-<use images/figures/Prediction Distance using the coefficients.png>
-Package pdftex.def Info: images/figures/Prediction Distance using the coefficients.png  used on input line 29.
-(pdftex.def)             Requested size: 113.39923pt x 113.39577pt.
-<images/figures/Prediction Velocity using the coefficients.png, id=31, 505.89pt x 505.89pt>
-File: images/figures/Prediction Velocity using the coefficients.png Graphic file (type png)
-<use images/figures/Prediction Velocity using the coefficients.png>
-Package pdftex.def Info: images/figures/Prediction Velocity using the coefficients.png  used on input line 36.
-(pdftex.def)             Requested size: 113.39923pt x 113.39577pt.
-<images/figures/Acceleration Equivalence (Linear Model).png, id=32, 505.89pt x 505.89pt>
+[3 <./images/figures/Prediction Acceleration (Linear Model, Distance).png> <./images/figures/Prediction Acceleration (Linear Model, Velocity).png>]
+<images/figures/Acceleration Equivalence (Linear Model).png, id=42, 505.89pt x 505.89pt>
 File: images/figures/Acceleration Equivalence (Linear Model).png Graphic file (type png)
 <use images/figures/Acceleration Equivalence (Linear Model).png>
-Package pdftex.def Info: images/figures/Acceleration Equivalence (Linear Model).png  used on input line 49.
+Package pdftex.def Info: images/figures/Acceleration Equivalence (Linear Model).png  used on input line 61.
 (pdftex.def)             Requested size: 113.39923pt x 113.39577pt.
-<images/figures/Acceleration Equivalence (Ballistic integration).png, id=33, 505.89pt x 505.89pt>
+<images/figures/Acceleration Equivalence (Ballistic integration).png, id=43, 505.89pt x 505.89pt>
 File: images/figures/Acceleration Equivalence (Ballistic integration).png Graphic file (type png)
 <use images/figures/Acceleration Equivalence (Ballistic integration).png>
-Package pdftex.def Info: images/figures/Acceleration Equivalence (Ballistic integration).png  used on input line 56.
+Package pdftex.def Info: images/figures/Acceleration Equivalence (Ballistic integration).png  used on input line 68.
 (pdftex.def)             Requested size: 113.39923pt x 113.39577pt.
-) (./sections/conclusion.tex) (./sections/references.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 19.
-) (./sections/test.tex
-<./images/grins.pdf, id=34, 110.93947pt x 135.09912pt>
+<images/figures/Prediction Distance using the coefficients.png, id=44, 505.89pt x 505.89pt>
+File: images/figures/Prediction Distance using the coefficients.png Graphic file (type png)
+<use images/figures/Prediction Distance using the coefficients.png>
+Package pdftex.def Info: images/figures/Prediction Distance using the coefficients.png  used on input line 124.
+(pdftex.def)             Requested size: 113.39923pt x 113.39577pt.
+<images/figures/Prediction Velocity using the coefficients.png, id=45, 505.89pt x 505.89pt>
+File: images/figures/Prediction Velocity using the coefficients.png Graphic file (type png)
+<use images/figures/Prediction Velocity using the coefficients.png>
+Package pdftex.def Info: images/figures/Prediction Velocity using the coefficients.png  used on input line 131.
+(pdftex.def)             Requested size: 113.39923pt x 113.39577pt.
+) (./sections/conclusion.tex) (./sections/references.tex) (./sections/test.tex
+<./images/grins.pdf, id=46, 110.93947pt x 135.09912pt>
 File: ./images/grins.pdf Graphic file (type pdf)
 <use ./images/grins.pdf>
 Package pdftex.def Info: ./images/grins.pdf  used on input line 23.
@@ -354,7 +438,7 @@ Package pdftex.def Info: ./images/grins.pdf  used on input line 23.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/grins.png, id=35, 110.814pt x 144.54pt>
+<./images/grins.png, id=47, 110.814pt x 144.54pt>
 File: ./images/grins.png Graphic file (type png)
 <use ./images/grins.png>
 Package pdftex.def Info: ./images/grins.png  used on input line 31.
@@ -374,7 +458,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./images/figures/Prediction Acceleration (Linear Model, Distance).png> <./images/figures/Prediction Acceleration (Linear Model, Velocity).png> <./images/figures/Prediction Distance using the coefficients.png> <./images/figures/Prediction Velocity using the coefficients.png> <./images/figures/Acceleration Equivalence (Linear Model).png> <./images/figures/Acceleration Equivalence (Ballistic integration).png>] [4
+[4 <./images/figures/Acceleration Equivalence (Linear Model).png> <./images/figures/Acceleration Equivalence (Ballistic integration).png> <./images/figures/Prediction Distance using the coefficients.png> <./images/figures/Prediction Velocity using the coefficients.png>] [5
 
  <./images/grins.pdf> <./images/grins.png>] (build/main.aux)
 
@@ -382,18 +466,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3252 strings out of 477985
- 56878 string characters out of 5840058
- 1869388 words of memory out of 5000000
- 23387 multiletter control sequences out of 15000+600000
- 557073 words of font info for 102 fonts, out of 8000000 for 9000
+ 7624 strings out of 477985
+ 180535 string characters out of 5840058
+ 1883388 words of memory out of 5000000
+ 27715 multiletter control sequences out of 15000+600000
+ 559904 words of font info for 105 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 57i,12n,62p,280b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on build/main.pdf (4 pages, 373652 bytes).
+ 73i,14n,77p,426b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on build/main.pdf (5 pages, 443963 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 140 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

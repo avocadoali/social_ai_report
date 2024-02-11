@@ -210,12 +210,17 @@ Results of acceleration prediction (Linear Model Disance and Velocity)
 Prediction Acceleration (Linear Model, Distance)
 Prediction Acceleration (Linear Model, Velocity)
 
+Acceleration Equivalance (Linear Model)
 Acceleration Equivalance (Ballistic integration)
 
-Acceleration Equivalance (Linear Model)
 
 *** Notes
 Results for the prediction of the model
+
+
+
+
+
 
 Performance Metrics:
     What specific metrics were used to evaluate the performance of your model?

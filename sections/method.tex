@@ -9,24 +9,37 @@ of RWTH Aachen University.
 The datasets offer vehicle trajectories recorded at German intersections, highway exits, and entries, 
 and roundabouts, respectively. 
 Additionally, the datasets were provided with a tool that allowed us to visualize them for better understanding. 
+The datasets includes 18 columns ranging from the ids of a vehicle, lifetime to all various motion related information.
+We will primarily focus on the following columns:
+$x_{\text{Center}}$, $y_{\text{Center}}$, $x_{\text{Velocity}}$, $y_{\text{Velocity}}$, $x_{\text{Acceleration}}$, 
+$y_{\text{Acceleration}}$.
+
+The columns  $x_{\text{Center}}$ and $y_{\text{Center}}$ represent the current position of the object's center in the coordinate coordinate system. Preprocessing can be done such that the columns describe the distance to the origin of the vehicle.
+
+Velocity information is captured through columns $x_{\text{Velocity}}$ and $y_{\text{Velocity}}$ representing velocities 
+in the x-axis and y-axis respectively.
+
+Acceleration data are represented in columns $x_{\text{Acceleration}}$ and $y_{\text{Acceleration}}$ which provide 
+information on the acceleration in the x-axis and y-axis respectively.
 
 \subsection{Model Selection Process} 
 Our model selection process involved a systematic trial and error approach with a total of 8 different models. 
 Each model underwent an evaluation process to assess its ability to accurately predict vehicle acceleration across 
 various scenarios. 
-Ultimately, the following linear model emerged as the most suitable choice based on its superior performance metrics.
+Ultimately, the following two linear models emerged as the most suitable choice based on their superior performance metrics.
 
-\begin{align}
-    a(k) &= \bar{c}_1 \bigl( s(k+1) - s(k) - v(k) \bigr) -\bar{c}_2 a(k-1) \\
-    a(k) &= \bar{c}_3 \bigl( v(k+1) - v(k) \bigr) -\bar{c}_4 a(k-1) 
+\begin{align} 
+    a_{dis}(k) &= \bar{c}_1 \bigl( s(k) - s(k+1) - v(k) \bigr) -\bar{c}_2 a(k-1) \\
+    a_{vel}(k) &= \bar{c}_3 \bigl( v(k) - v(k+1) \bigr) -\bar{c}_4 a(k-1) 
 \end{align}
 
 This linear model is then solved by linear regression. 
 After training the model on the acceleration set from our dataset, we can rearrange the formulas
-to determine the distance and velocity formulas
-\begin{align}
-    s(k+1) &= s(k) + v(k)+ c_1 a(k) + c_2 a(k-1) \\
-    v(k+1) &= v(k) +                c_3 a(k) + c_4 a(k-1)
+to determine the distance and velocity formulas, similarly to the ballistic integration
+
+\begin{align} 
+    s(k+1) &= s(k) + v(k) + c_1 a_{dis}(k) + c_2 a(k-1) \\
+    v(k+1) &= v(k)        + c_3 a_{vel}(k) + c_4 a(k-1)
 \end{align}
 
 
@@ -42,6 +55,105 @@ By rearranging the model as such, we specifically ensure that for both $s(k)$ an
 acceleration, as we are training both models on the same acceleration set.
 Thus, we receive a proper integration method for the data set on which we trained the model, which solves the 
 problems of the mismatched acceleration in previous attempts.
+
+As seen in the section Dataset Description, we can see, that the column for distance, velocity and acceleration are 
+split into their x- and y-components.
+Thus our linear models will look like this:\\
+Distance Model (Acceleration from distance formula),
+
+{\footnotesize
+
+\begin{align} \label{eq:lin_model_acc_dis}
+    \begin{bmatrix}
+        a_x(k) \\ 
+        a_y(k)       
+    \end{bmatrix}_{dis}
+    =
+    \begin{bmatrix}
+       s_x(k) - s_x(k+1) - v_x(k) & -a_x(k-1) \\ 
+       s_y(k) - s_y(k+1) - v_y(k) & -a_y(k-1)   
+    \end{bmatrix}
+    \begin{bmatrix}
+        \overline c_1 \\
+        \overline c_2 \\
+   \end{bmatrix}
+\end{align}
+}\\
+Velocity Model (Acceleration from velocity formula),
+
+\begin{align} \label{eq:lin_model_acc_vel}
+    \begin{bmatrix}
+        a_x(k) \\ 
+        a_y(k) 
+    \end{bmatrix}_{vel}
+    =
+    \begin{bmatrix}
+        v_x(k) - v_x(k+1) & -a_x(k+1)    \\ 
+        v_y(k) - v_y(k+1) & -a_y(k+1)    \\
+    \end{bmatrix}
+    \begin{bmatrix}
+        \overline c_3 \\
+        \overline c_4 \\
+   \end{bmatrix}
+\end{align}
+
+Afterward, we will compare the accelerations derived from displacement, denoted as 
+$\begin{bmatrix} a_x(k) \\ a_y(k) \end{bmatrix}_{dis}$
+, with those derived from velocity, denoted as 
+$\begin{bmatrix} a_x(k) \\ a_y(k) \end{bmatrix}_{\text{vel}}$
+, to assess the effectiveness of the Distance Model's acceleration estimation relative to that of the Velocity Model.
+Using the coefficients determined from linear regression from the linear models (5) and (6) we can determine the distance and the velocity using the following matrices incorporating the x and y components.
+
+Distance matrix
+{
+\footnotesize
+\label{eq:distance_matrix}
+\begin{align}
+    \begin{bmatrix}
+        s_x(k+1) \\ 
+        s_y(k+1) 
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        a_x(k) & a_x(k-1)    \\ 
+        a_y(k) & a_y(k-1)    \\
+    \end{bmatrix}
+    \begin{bmatrix}
+        c_1 \\
+        c_2 \\
+    \end{bmatrix}
+    +
+    \begin{bmatrix}
+        s_x(k) + v_x(k) \\ 
+        s_y(k) + v_y(k) \\
+    \end{bmatrix}
+\end{align} 
+}
+
+Velocity matrix
+\begin{align}
+\label{eq:velocity_matrix}
+    \begin{bmatrix}
+        v_x(k+1) \\ 
+        v_y(k+1) 
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        a_x(k) & a_x(k-1)    \\ 
+        a_y(k) & a_y(k-1)    \\
+    \end{bmatrix}
+    \begin{bmatrix}
+        c_3 \\
+        c_4 \\
+   \end{bmatrix}
+    +
+    \begin{bmatrix}
+        v_x(k) \\
+        v_y(k) 
+    \end{bmatrix}
+\end{align}
+
+Thus, we receive a discrete integration model with matching accelerations for the distance and velocity formula.
 
 \subsection{Training and Testing Procedure} 
 For training the model, we used the $LinearRegression()$ function, provided by the sci-kit-learn Python library to train our linear model.

@@ -198,6 +198,17 @@ INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/share/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/color.sty
@@ -217,6 +228,107 @@ INPUT /usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT /usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations.sty
+INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -251,6 +363,11 @@ INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+INPUT /usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 INPUT ./sections/coverpage.tex
 INPUT ./sections/coverpage.tex
 INPUT ./sections/coverpage.tex
@@ -323,10 +440,19 @@ INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT ./sections/results.tex
 INPUT sections/results.tex
 INPUT ./sections/results.tex
 INPUT sections/results.tex
+INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
 INPUT ./images/figures/Prediction Acceleration (Linear Model, Distance).png
 INPUT ./images/figures/Prediction Acceleration (Linear Model, Distance).png
 INPUT images/figures/Prediction Acceleration (Linear Model, Distance).png
@@ -337,16 +463,9 @@ INPUT ./images/figures/Prediction Acceleration (Linear Model, Velocity).png
 INPUT images/figures/Prediction Acceleration (Linear Model, Velocity).png
 INPUT ./images/figures/Prediction Acceleration (Linear Model, Velocity).png
 INPUT ./images/figures/Prediction Acceleration (Linear Model, Velocity).png
-INPUT ./images/figures/Prediction Distance using the coefficients.png
-INPUT ./images/figures/Prediction Distance using the coefficients.png
-INPUT images/figures/Prediction Distance using the coefficients.png
-INPUT ./images/figures/Prediction Distance using the coefficients.png
-INPUT ./images/figures/Prediction Distance using the coefficients.png
-INPUT ./images/figures/Prediction Velocity using the coefficients.png
-INPUT ./images/figures/Prediction Velocity using the coefficients.png
-INPUT images/figures/Prediction Velocity using the coefficients.png
-INPUT ./images/figures/Prediction Velocity using the coefficients.png
-INPUT ./images/figures/Prediction Velocity using the coefficients.png
+INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT ./images/figures/Acceleration Equivalence (Linear Model).png
 INPUT ./images/figures/Acceleration Equivalence (Linear Model).png
 INPUT images/figures/Acceleration Equivalence (Linear Model).png
@@ -357,6 +476,16 @@ INPUT ./images/figures/Acceleration Equivalence (Ballistic integration).png
 INPUT images/figures/Acceleration Equivalence (Ballistic integration).png
 INPUT ./images/figures/Acceleration Equivalence (Ballistic integration).png
 INPUT ./images/figures/Acceleration Equivalence (Ballistic integration).png
+INPUT ./images/figures/Prediction Distance using the coefficients.png
+INPUT ./images/figures/Prediction Distance using the coefficients.png
+INPUT images/figures/Prediction Distance using the coefficients.png
+INPUT ./images/figures/Prediction Distance using the coefficients.png
+INPUT ./images/figures/Prediction Distance using the coefficients.png
+INPUT ./images/figures/Prediction Velocity using the coefficients.png
+INPUT ./images/figures/Prediction Velocity using the coefficients.png
+INPUT images/figures/Prediction Velocity using the coefficients.png
+INPUT ./images/figures/Prediction Velocity using the coefficients.png
+INPUT ./images/figures/Prediction Velocity using the coefficients.png
 INPUT ./sections/conclusion.tex
 INPUT sections/conclusion.tex
 INPUT ./sections/conclusion.tex
@@ -365,12 +494,6 @@ INPUT ./sections/references.tex
 INPUT sections/references.tex
 INPUT ./sections/references.tex
 INPUT sections/references.tex
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT ./sections/test.tex
 INPUT sections/test.tex
@@ -386,19 +509,25 @@ INPUT ./images/grins.png
 INPUT ./images/grins.png
 INPUT ./images/grins.png
 INPUT ./images/grins.png
-INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT build/main.aux
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb
