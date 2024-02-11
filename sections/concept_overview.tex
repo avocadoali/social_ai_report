@@ -1,29 +1,25 @@
 \section{Concept Overview}
-As we are working with a discrete dataset, there is no way to integrate or derive over a continuous function 
-which describes the motion of a car. 
-
+As we are working with a discrete dataset, there is no way to integrate or derive over a continuous function which describes the motion of a car. 
 Thus, a discrete integration method to describe the motion of a car is needed. 
+
 In previous attempts, other discrete integration methods were tested such as the ballistic integration model, 
 \begin{align}
 s(k+1) &= s(k) + dt \cdot v(k) + \frac{dt^2}{2} a(k) \\
 v(k+1) &= v(k) + dt \cdot                       a(k)
 \end{align}
-
 where \textit{dt} describes the time interval between each data point.
+
 The main problem here was, that this integration model had issues with the accuracy of the acceleration. 
 After rearranging both formulas to the acceleration parameter 
 \begin{align}
     a(k) &= \frac{2}{dt^2} \Bigl( s(k+1) - s(k) - dt \cdot v(k) \Bigr)\\
     a(k) &= \frac{1}{dt} \Bigl( v(k+1) - v(k) \Bigr)
 \end{align}
-
 the resulting formulas do not calculate the same acceleration. 
-Detailed results will be shown in the results section.
 
 Our method revolves around the use of a linear model to estimate the acceleration of vehicles.
 By equating and rearranging the formula, we specifically ensure that the predicted accelerations remain consistent
 for both equations.
-
 The motivation behind choosing a linear model stems from the hope of better performance compared 
 to alternative models tested during our experimentation. 
 Through rigorous testing, we found that the selected linear model consistently outperformed others in 
@@ -35,9 +31,11 @@ To validate the effectiveness of our approach, we plan to compare the results ob
 model against the previous Ballistic Integration method, particularly focusing on the accuracy and consistency of 
 the predicted accelerations. 
 Additionally, we will evaluate the performance of our model using standard linear regression metrics such as 
-R-value and MSE. 
+mean square error, mean absolute error, and R-value.
+
 Furthermore, we aim to extend our analysis by rearranging the model to predict velocity and distance, 
 allowing us to assess its predictive capabilities.
+This test will show us if using a linear model is a valid discrete integration method.
 In the end, we will visualize our results using the existing drone-dataset-tool repo, 
 which was provided.
 

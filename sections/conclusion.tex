@@ -1,11 +1,16 @@
 \section{Conclusion and Future Work}
 
+\subsection{Conclusion}
 We demonstrated that our linear model provided us with more equal results for both the distance model and 
 the acceleration model.
 This highlights the effectiveness of using a linear model as a discrete integration system.
+A comparison with the previously used ballistic integration method revealed significantly better performance in terms of accuracy.
+Finally, using the coefficients obtained from linear regression, 
+we were able to predict both distance and velocity with high accuracy, although some error was observed. 
+Visualizations of these predictions showcased their alignment with the ground truth, further validating the effectiveness of our integration model.
 
+\subsection{Future Work}
+In future work, we plan to continue refining our integration model to achieve even better results by further fine-tuning its parameters and training procedures. 
 
- the equivalence of accelerations derived from both linear models was demonstrated, highlighting the effectiveness of our approach in matching acceleration estimates
-A comparison with the previously used ballistic integration method revealed significantly better performance in terms of MSE and MAE.
-
-Finally, using the coefficients obtained from linear regression, we were able to predict both distance and velocity with high accuracy, although some error was observed. Visualizations of these predictions showcased their alignment with the ground truth, further validating the effectiveness of our integration model.
+Additionally, we aim to explore the integration of our discrete integration model with the neural network developed by the previous team.
+By testing the combined model and comparing its effectiveness against the old method, we can gain insights into its actual performance. 

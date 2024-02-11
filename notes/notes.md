@@ -272,7 +272,7 @@ Ballistic Integration & 2.0698e+02 & 5.0158e-01 \\
 We can clearly see that the accelerations from both our linear models match up better than the previously used
 ballistic integration method.
 
-\subsection{Predicion of the movement}
+\subsection{Prediction of the movement}
 Using the coefficients determine by the linear regression we can rearrange the model such that the model predicts 
 the distance (\ref{eq:distance_matrix}) and the velocity (\ref{eq:velocity_matrix}).
 The following shows metrics for the prediciton of the distance and the velocity using the coefficients

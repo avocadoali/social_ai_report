@@ -6,7 +6,7 @@ The linear models that predict the acceleration derived from the distance formul
 (\ref{eq:lin_model_acc_dis}) and the model derived from the velocity formula (\ref{eq:lin_model_acc_vel}) solved using linear regression have the following test results:
 
 
-\begin{table}[htbp]
+\begin{table}[h]
 \centering
 \caption{Comparison Results: Distance Model and Velocity Model}
 \label{tab:model_comparison}
@@ -20,38 +20,39 @@ Velocity Model & 3.5370e-03 & 1.1877e-02 & 9.8918e-01 \\
 \end{tabular}
 \end{table}
 
-We can see that the predictions for the test set are quite accurate having small MSE and MAE. 
-We can also plot our results into graphs to have a better visual understanding of our results
+We can see that the predictions for the test set for both models are quite accurate having small MSE and MAE. 
+We can also plot our results into graphs to have a better visual understanding of our results 
+in figure \ref{fig:prediciton_acceleration_distance} and \ref{fig:prediciton_acceleration_velocity}.
 
 \begin{figure}[h]
     \centering
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{images/figures/Prediction Acceleration (Linear Model, Distance).png}
-        \caption{Test results Distance Model}
-        \label{fig:minipage3}
+        \caption{Prediction results Distance Model}
+        \label{fig:prediciton_acceleration_distance}
     \end{minipage}
     \hfill
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{images/figures/Prediction Acceleration (Linear Model, Velocity).png}
-        \caption{Test results Velocity Model}
-        \label{fig:minipage4}
+        \caption{Prediction results Velocity Model}
+        \label{fig:prediciton_acceleration_velocity}
     \end{minipage}
 \end{figure}
 
 The graph seems to fit our low MSE and MAE values, as all predicted points are lying close to the red line which indicates
 a perfect prediction.
 Interestingly we can see that most inaccuracies lie in the middle where the acceleration is close to zero.
-Our hypothesis is that if our acceleration is close to zero the model has the least amount of information for inference, leading
+Our hypothesis is, that if our acceleration is close to zero the model has the least amount of information for inference, leading
 to a more scattered prediction in this region.
 
 \subsection{Equivalence of accelerations}
 
-Note that the both results from the linear regression look quite similar. 
+Note that both results of the models look quite similar. 
 This is due to the fact, that we specifically trained both models to fit the same dataset. 
 The similarity can be seen in the following figure.
-The left shows the how the predicted accelerations of both our linear models match up, while on the right we can see how the 
+The left shows how the predicted accelerations of both our linear models match up, while on the right we can see how the 
 accelerations match up for the previously used ballistic integration method
 
 \begin{figure}[h]
@@ -60,20 +61,17 @@ accelerations match up for the previously used ballistic integration method
         \centering
         \includegraphics[width=\columnwidth]{images/figures/Acceleration Equivalence (Linear Model).png}
         \caption{Caption for Figure 1}
-        \label{fig:minipage3}
     \end{minipage}
     \hfill
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{images/figures/Acceleration Equivalence (Ballistic integration).png}
         \caption{Caption for Figure 2}
-        \label{fig:minipage4}
     \end{minipage}
     \caption{Caption for the entire figure}
-    \label{fig:combined_figure_2}
 \end{figure}
 
-In the following we can see the metrics of our results for the equivalence of the accelerations
+In the following, we can see the metrics of our results for the equivalence of the accelerations
 
 \begin{table}[htbp]
 \centering
@@ -89,13 +87,13 @@ Ballistic Integration & 2.0698e+02 & 5.0158e-01 \\
 \end{tabular}
 \end{table}
 
-We can clearly see that the accelerations from both our linear models match up better than the previously used
-ballistic integration method.
+We can see that the accelerations from both our linear models match up almost perfectly, while the 
+results from our previously used model are more scattered. 
 
-\subsection{Predicion of the movement}
-Using the coefficients determine by the linear regression we can rearrange the model such that the model predicts 
+\subsection{Prediction of the movement}
+Using the coefficients determined by the linear regression we can rearrange the model such that the model predicts 
 the distance (\ref{eq:distance_matrix}) and the velocity (\ref{eq:velocity_matrix}).
-The following shows metrics for the prediciton of the distance and the velocity using the coefficients
+The following shows metrics for the prediction of the distance and the velocity using the coefficients.
 
 \begin{table}[t]
     \centering
@@ -113,7 +111,7 @@ The following shows metrics for the prediciton of the distance and the velocity 
 
 
 As we can see all metrics are conditioned well. 
-Though we can see that the MSE and MAE values the error is quite some bit zero.
+Though, we can see that the MSE and MAE values are not well under 1.
 This means that our prediction for the distance and velocity is not perfect. 
 For a better understanding, we also visualized our findings
 
@@ -136,7 +134,7 @@ For a better understanding, we also visualized our findings
     \label{fig:combined_figure_2}
 \end{figure}
 
-Again, we can see that the prediction matches up with the ground truth very well. 
+Again, we can see that the prediction matches up with the ground well and might be sufficient for our use case.
 These results can then be visualized using the drone-dataset-tool provided with the dataset.
 Results comparing the prediction of the moving cars to the ground truth can be found here.
 \textbf{Insert url here}
