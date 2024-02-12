@@ -55,35 +55,6 @@ Concept overview
 - will use linear regression to estimate the coefficients of the underlying model
 - then rearrange the model such that it output the velocity and distance accurately again
 
-* Questions to be answered
-
-Certainly! Here are some questions to help you elaborate on the problem statement in your report:
-Challenges with the Current Approach:
-    What specific limitations or challenges does the underlying neural network face in accurately predicting motion in dynamic environments?
-    
-    - currently using an integration method for discrete integration called ballistic integration
-    - problem is that as we are working with discrete data, there happens to be discretization error
-    - in our case after rearanging the formula to see if the integration model fits our data the acceleration does not fit the ground truth
-    - this leads to bad results in the neural network, as our results of the integration are fed into the NN
-
-
-
-
-
-
-Our method revolves around the use of a linear model to estimate the acceleration of vehicles.
-By equating and rearranging the formula, we specifically ensure that the predicted accelerations maintain consistent. 
-Whereas, using the old method of ballistic integration the discretization error heavily influence the accuracy.
-
-The motivation behind choosing a linear model stems from its superior performance compared to alternative models tested during our experimentation. 
-Through rigorous testing, we found that the selected linear model consistently outperformed others in terms accuracy in predicting the cars movement. 
-Additionally, the simplicity and interpretability of the linear model make it an attractive choice for motion prediction tasks. 
-
-To validate the effectiveness of our approach, we plan to compare the results obtained with our linear model against the old Ballistic Integration method, particularly focusing on the accuracy and consistency of the predicted accelerations. 
-Additionally, we will evaluate the performance of our model using standard linear regression metrics such as R-value and MSE. 
-Furthermore, we aim to extend our analysis by rearranging the model to predict velocity and distance, allowing us to assess its predictive capabilities.
-In the end we will visualize our results using the existing drone-dataset-tool repo which was provided.
-
 
 
 
@@ -120,89 +91,6 @@ Conclusions and future work
 
 
 
-
-
-
-
-Can you provide a high-level overview of the methodology you propose?
-- using a linear model we estimate the the acceleration of a car
-- by equating and forming the equation in this way we assure that after rearranging the formula we will get similar results for the accelration
-
-What motivated the choice of a linear model for acceleration estimation?
-- we tested 8 other linear models and this one was the best
-- motivation was similarity to the old ballistic integration (which are common formulas for discrete integration)
-How do you plan to validate the effectiveness of your approach?
-- we can evaluate the results by comparing it to the old appraoch (namely the old ballistic integration)
-- we will also look at the common metrics of a linear regression such as r value, mse etc...
-- then we can rearange the formulas to try to predict the velocity and distance from the cars
-- here we can also look at common metrics for the prediction of a model such as mse and accuracy
-- lastly we can visualize our results for a better representation
-
-
-
-Methodology Overview:
-You mentioned rearranging the formula to ensure similar results for acceleration. You could expand on this process to illustrate how it contributes to the effectiveness of your approach.
-Rearanging the formula is a crucial step to ensure simlarity of the accelerations of both formulas
-
-Motivation for Choosing a Linear Model:
-Elaborate on why the linear model stood out among the other tested models. What specific characteristics or performance metrics made it the best choice?
-The chosen linear model had the best results in all aspects such as mse, accuracy compared to the others
-
-You mentioned the similarity to old ballistic integration formulas. You could further explain how this similarity benefits your approach and why it's relevant to the problem you're addressing.
-it only adds one more parameter of the past acceleration
-
-
-
-
-
-
-
-
-
-Dataset Description:
-Can you provide more details about the dataset you used for experimentation?
-- dataset was provided by the following source:
-https://levelxdata.com/
-In cooperation with ika, the Institute for Automotive Engineering at RWTH Aachen University, we have created a representative series of datasets which are free for non-commercial research. Our goal is to help the research community finding innovative solutions for the challenges of intelligent mobility.
-
-
-
-What sources were used to collect the data, and what types of scenarios does it cover?
-- The inD dataset is a new dataset of naturalistic vehicle trajectories recorded at German intersections. Using a drone, typical limitations of established traffic data collection methods like occlusions are overcome. T
-- The exiD dataset is a new dataset of naturalistic road user trajectories recorded at exits and entries of highways in Germany. Using a drone, typical limitations of established traffic data collection methods like occlusions are overcome
-- The rounD dataset is a new dataset of naturalistic road user trajectories recorded at German roundabouts. Using a drone, typical limitations of established traffic data collection methods like occlusions are overcome. Traffic was recorded at three different locations.
-
-
-Model Selection Process:
-How did you select the linear model for acceleration estimation from the various models tested?
-- trial and error of in total 8 models
-
-Can you explain the criteria used to evaluate and compare the performance of different models?
-- accuracy of the prediction using r2, mse,
-- accuracy of the prediction after rearranging the models for there velocity and distance
-
-Training and Testing Procedure:
-What approach did you follow to split the dataset into training and testing sets?
-- using common data splitting techniques provided by the scikit learn python library
-- used the function train_test_split() functio from scikit with test size of 0.3
-
-Evaluation Metrics and Results:
-What evaluation metrics were used to assess the performance of the linear model?
-- insert common metrics for linear regression here
-
-Can you provide a summary of the results obtained, including key metrics such as MSE, R-score, etc.?
-- i will add them later. For now insert some mock data here for 3 tested models
-
-Were there any notable findings or observations from the evaluation process that merit further discussion or analysis?
-- the results after the rearanging of the formula for distance and velocity seem to have an Constant error
-- after increasing the numpy array size this error seemed to be going down
-- might be some floating point error
-
-Future Directions:
-Based on your implementation experience, are there any specific areas for future research or improvement?
-- increase the precision of the numpy arrays by increasing there size
-- bigger dataset
-
 ** Results
 *** Strucuter
 Results of acceleration prediction (Linear Model Disance and Velocity)
@@ -216,12 +104,6 @@ Acceleration Equivalance (Ballistic integration)
 
 *** Notes
 Results for the prediction of the model
-
-
-
-
-
-
 Performance Metrics:
     What specific metrics were used to evaluate the performance of your model?
     Can you provide a summary of the results for each metric, including any significant findings or trends observed?
@@ -242,7 +124,6 @@ Visualization of Results:
 
 - Visualized the results using the provided drone-dataset-tool
 - had to rearange the formula using the same coefficients which were determined by the linear regression model
-
 Implications and Future Work:
     What are the implications of your results for real-world applications?
     Based on your findings, what are the next steps for further research or improvement?
@@ -253,48 +134,6 @@ Implications and Future Work:
 
 I have to write a report of a project I did for uni. This is the methods section. Can you help me with the results section? What do I have to focus on?
 
-
-** Questions
-erformance Evaluation:
-
-    What specific metrics were used to evaluate the performance of your model?
-    Can you summarize the results for each metric and highlight any significant differences between your model and the baseline?
-
-
-Comparison with Baseline:
-
-    How does the performance of your model compare with the baseline (e.g., the ballistic integration model)?
-    Were there any unexpected findings or discrepancies between the two models?
-
-Visualization of Results:
-
-    Have you prepared any visualizations (e.g., graphs, charts) to illustrate the predicted accelerations of your model and the baseline?
-    How do these visualizations enhance the interpretation and understanding of the results?
-
-Discussion of Findings:
-
-    What insights can be derived from the results obtained?
-    Are there any patterns or trends observed in the data that warrant further investigation or discussion?
-
-Implications for Real-World Applications:
-
-    What are the implications of your results for real-world applications, such as autonomous driving or robotics?
-    How do your findings contribute to advancing the field or addressing existing challenges in motion prediction?
-
-Robustness and Generalization:
-
-    How robust is your model to variations in the dataset or different scenarios?
-    Did you observe any overfitting or underfitting issues, and if so, how were they addressed?
-
-Future Directions:
-
-    Based on the results obtained, what are the next steps for further research or improvement?
-    Are there any specific areas or aspects of your model that require further investigation or refinement?
-
-Conclusion and Summary:
-
-    Can you provide a concise summary of the key findings and insights presented in the results section?
-    What overarching conclusions can be drawn from the analysis of your model's performance?
 
 * Sources
 
@@ -312,3 +151,5 @@ https://levelxdata.com/exid-dataset/
 
 Drone tool:
 https://github.com/ika-rwth-aachen/drone-dataset-tools?tab=readme-ov-file
+
+Paper from di liu

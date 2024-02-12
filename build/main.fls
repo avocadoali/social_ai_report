@@ -758,6 +758,12 @@ INPUT ./sections/conclusion.tex
 INPUT sections/conclusion.tex
 INPUT ./sections/conclusion.tex
 INPUT sections/conclusion.tex
+INPUT build/main.bbl
+INPUT build/main.bbl
+INPUT build/main.bbl
+INPUT build/main.bbl
+INPUT /usr/share/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT build/main.aux
 INPUT build/main.out
 INPUT build/main.out

@@ -20,7 +20,7 @@ Velocity Model & 3.5370e-03 & 1.1877e-02 & 9.8918e-01 \\
 \end{tabular}
 \end{table}
 
-We can see that the predictions for the test set for both models are quite accurate having small MSE and MAE. 
+We can see that the predictions for the test set for both models are quite accurate having a very small MSE and MAE. 
 We can also plot our results into graphs to have a better visual understanding of our results 
 in figure \ref{fig:prediciton_acceleration_distance} and \ref{fig:prediciton_acceleration_velocity}.
 
@@ -60,13 +60,13 @@ accelerations match up for the previously used ballistic integration method
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{images/figures/Acceleration Equivalence (Linear Model).png}
-        \caption{Caption for Figure 1}
+        \caption{Acceleration equivalence using linear model}
     \end{minipage}
     \hfill
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{images/figures/Acceleration Equivalence (Ballistic integration).png}
-        \caption{Caption for Figure 2}
+        \caption{Acceleration equivalence using ballistic model}
     \end{minipage}
     \caption{Caption for the entire figure}
 \end{figure}
@@ -95,7 +95,7 @@ Using the coefficients determined by the linear regression we can rearrange the 
 the distance (\ref{eq:distance_matrix}) and the velocity (\ref{eq:velocity_matrix}).
 The following shows metrics for the prediction of the distance and the velocity using the coefficients.
 
-\begin{table}[t]
+\begin{table}[h]
     \centering
     \caption{Regression Metrics}
     \begin{tabular}{lccc}
@@ -110,9 +110,8 @@ The following shows metrics for the prediction of the distance and the velocity 
 \end{table}
 
 
-As we can see all metrics are conditioned well. 
-Though, we can see that the MSE and MAE values are not well under 1.
-This means that our prediction for the distance and velocity is not perfect. 
+As we can see, all metrics are quite low for both formulas. 
+Though, our prediction for the distance and velocity is not perfect. 
 For a better understanding, we also visualized our findings
 
 \begin{figure}[htbp]
@@ -120,21 +119,21 @@ For a better understanding, we also visualized our findings
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{images/figures/Prediction Distance using the coefficients.png}
-        \caption{Caption for Figure 1}
+        \caption{Prediction of the distance using coefficients}
         \label{fig:minipage3}
     \end{minipage}
     \hfill
     \begin{minipage}[b]{0.45\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{images/figures/Prediction Velocity using the coefficients.png}
-        \caption{Caption for Figure 2}
+        \caption{Prediction of the velocity using coefficients}
         \label{fig:minipage4}
     \end{minipage}
-    \caption{Caption for the entire figure}
     \label{fig:combined_figure_2}
 \end{figure}
 
-Again, we can see that the prediction matches up with the ground well and might be sufficient for our use case.
+Again, we can see that the prediction matches up with the ground truth well.
+Although we can see a small offset to the red line, especially on the velocity formula, our results might be sufficient for our use case.
 These results can then be visualized using the drone-dataset-tool provided with the dataset.
 Results comparing the prediction of the moving cars to the ground truth can be found \href{https://github.com/avocadoali/social_ai_practical_course}{here}.
 
