@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex build/main"] 1708347594 "build/main.aux" "build/main.bbl" "build/main" 1708347596 0
+["bibtex build/main"] 1708347594 "build/main.aux" "build/main.bbl" "build/main" 1708347766 0
   "./bibliography/social_ai_v1.bib" 1708343846 3027 439bb7347defd5d763418a27a7c35a27 ""
   "/usr/share/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1704400182 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "build/main.aux" 1708347596 8160 da5cd48004d85dcb79c0087b4a06af30 "pdflatex"
+  "build/main.aux" 1708347765 8160 da5cd48004d85dcb79c0087b4a06af30 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1708347594 "/home/ali/tum/motion_planning/social_ai_report/main.tex" "build/main.pdf" "main" 1708347596 0
+["pdflatex"] 1708347764 "/home/ali/tum/motion_planning/social_ai_report/main.tex" "build/main.pdf" "main" 1708347766 0
   "/home/ali/tum/motion_planning/social_ai_report/main.tex" 1708343846 20356 1fec5483b0278b37dea3db380ba33e35 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1704400182 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1704400182 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -123,9 +123,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1704400182 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1708275613 4483110 adb1e1d04498b9576f1f17c4219c5e03 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1708275574 6768047 5ae23da0321debc3fcee87a43219abdb ""
-  "build/main.aux" 1708347596 8160 da5cd48004d85dcb79c0087b4a06af30 "pdflatex"
+  "build/main.aux" 1708347765 8160 da5cd48004d85dcb79c0087b4a06af30 "pdflatex"
   "build/main.bbl" 1708347594 2793 98edd43bc7a6d89c0aa4b8c131662865 "bibtex build/main"
-  "build/main.out" 1708347596 2375 03388f6f84e57ee3d3abf7b864e4e6b2 "pdflatex"
+  "build/main.out" 1708347765 2375 03388f6f84e57ee3d3abf7b864e4e6b2 "pdflatex"
   "images/IN.pdf" 1708343846 13474 7b97348338697e7da4876121fb0c0419 ""
   "images/figures/Acceleration Equivalence (Ballistic integration).png" 1708343846 77586 833ef733c85cd18f4499e722dc1d4eaf ""
   "images/figures/Acceleration Equivalence (Linear Model).png" 1708343846 48701 2ec6d8f291a83cc7939c44792e3df451 ""
@@ -149,7 +149,7 @@
   "sections/concept_overview.tex" 1708343846 3597 a9d7ea5b3a70e56f72ac8b892ff22bc0 ""
   "sections/conclusion.tex" 1708343846 2887 5c8f0df8fc96759d7520884ff77bc543 ""
   "sections/coverpage.tex" 1708343846 1313 42b978a9730da2a221bb61a00718160b ""
-  "sections/method.tex" 1708343846 13361 f9621714604db72cef78de3418e9a22c ""
+  "sections/method.tex" 1708347764 13355 31296be6869ad76719580a5c3439569d ""
   "sections/problem_statement.tex" 1708343846 1865 63344cd275ce3ec114b8020861f0bd13 ""
   "sections/results.tex" 1708343846 8322 84a5ea9fa2235ca85a8af9a956bcf247 ""
   (generated)
