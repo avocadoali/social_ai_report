@@ -1,9 +1,11 @@
 \section{Problem Statement}
 
-In our previous approach, we used a discrete integration method known as ballistic integration. 
-A challenge arises due to the discretization error while working with discrete datasets.
-Specifically, when we rearrange the integration formula to assess its fit with our data, we observe errors between the predicted acceleration and the ground truth.
-
-The differences in the accelerations affect the performance of the neural network with which the previous team was working with, 
-as the discrete integration results are fed into the network.
+In addressing the complexities of autonomous driving systems, our enhanced approach combines the refinement of vehicle behavior detection through filtering techniques with the critical evaluation of integration models, specifically addressing the challenges observed in ballistic integration. Previously, the discrete nature of ballistic integration led to discretization errors, impacting the accuracy of predicted accelerations when compared against ground truth data. This discrepancy not only undermined the performance of neural networks utilized in motion prediction but also highlighted the need for a methodological overhaul. By integrating a filtering module that detects nuanced vehicle behaviors—such as entering, merging, and yielding—with an improved integration model, we aim to mitigate the inaccuracies stemming from discretization errors, leveraging insights from \cite{gupta2018social}, who underscore the complexity of human motion and the necessity of accounting for multimodal paths in crowded spaces. 
+\begin{figure}[h]
+\centering
+\includegraphics[width=\columnwidth]{./images/figures/intro.jpeg}
+\caption{Socially Interacting Vehicles}
+\label{fig:intro}
+\end{figure}
+This dual-focused strategy ensures a balanced emphasis on both the detection of vehicle dynamics and the precision of mathematical models. Through this approach, we seek to address the limitations of previous methodologies by offering a more accurate, reliable, and comprehensive framework for understanding and predicting vehicle behaviour in complex driving scenarios. Supporting our methodology, \cite{5995468} demonstrate the significance of considering social and environmental factors in predictive modeling, emphasizing the need for a comprehensive behavioral model that incorporates these elements for improved tracking performance.
 

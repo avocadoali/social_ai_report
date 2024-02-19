@@ -10,23 +10,19 @@ v(k+1) &= v(k) + dt \cdot                       a(k)
 where \textit{dt} describes the time interval between each data point.
 
 The main problem here was, that this integration model had issues with the accuracy of the acceleration. 
-After rearranging both formulas to the acceleration parameter 
+Specifically, after rearranging both formulas to the acceleration parameter like such,
 \begin{align}
     a(k) &= \frac{2}{dt^2} \Bigl( s(k+1) - s(k) - dt \cdot v(k) \Bigr)\\
     a(k) &= \frac{1}{dt} \Bigl( v(k+1) - v(k) \Bigr)
 \end{align}
-the resulting formulas do not calculate the same acceleration. 
+the resulting formulas do not calculate the same acceleration.
 
 Our method revolves around the use of a linear model to estimate the acceleration of vehicles.
-By equating and rearranging the formula, we specifically ensure that the predicted accelerations remain consistent
+By equating and rearranging both formulas for the acceleration,
+we ensure that the predicted accelerations remain consistent
 for both equations.
-The motivation behind choosing a linear model stems from the hope of better performance compared 
-to alternative models tested during our experimentation. 
-Through rigorous testing, we found that the selected linear model consistently outperformed others in 
-terms of accuracy in the equality of both accelerations from both formulas.
-Additionally, the simplicity and interpretability of the linear model make it a good choice for 
-motion prediction tasks, as we can comfortably use established methods to solve these systems. 
-
+Through rigorous testing, we found that the selected linear model outperformed the ballistic integration model in 
+terms of accuracy and the equality of both accelerations from both formulas.
 
 To test our results we will be comparing our model to the previoulsy used ballistic integration method.
 Additionally, we will evaluate the performance of our model using standard linear regression metrics such as 
@@ -35,5 +31,14 @@ mean square error (MSE), mean absolute error (MAE), and R-squared ($R^2$) score.
 Furthermore, we aim to extend our analysis by rearranging the model to predict velocity and distance, 
 allowing us to assess if our model can be used as a valid discrete integration model.
 In the end, we will visualize our results using the existing drone-dataset-tool repo, which was provided.
+
+To complement this methodological foundation, our approach incorporates a filtering module, designed to accurately detect and analyse nuanced vehicle behaviours critical for motion prediction, such as merging, yielding, and hard braking. This module employs advanced data processing techniques to refine the discrete dataset, ensuring the identification of meaningful patterns and behaviours. The integration of this filtering module with our enhanced linear modelling technique establishes a comprehensive framework for motion prediction in autonomous driving systems. This synergy not only mitigates the limitations of previous integration methods but also improves the accuracy and reliability of predicting vehicle dynamics. Our approach, therefore, represents an advancement in the field of intelligent transportation systems, offering a deeper understanding of vehicle interactions and dynamics within complex urban environments. This integrated methodology underscores our commitment to developing innovative solutions that enhance the predictability, safety, and efficiency of autonomous driving technologies. As shown in Fig.~\ref{fig:general_pipeline}, the general pipeline overview illustrates the approach taken in this study, integrating both the advanced filtering techniques and the linear modelling for a thorough analysis and prediction of vehicle behavior in discrete datasets.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\columnwidth]{./images/figures/general_pipeline.jpeg}
+\caption{Overview of the General Pipeline}
+\label{fig:general_pipeline}
+\end{figure}
 
 
